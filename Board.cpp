@@ -36,8 +36,6 @@ Board::Board(const int height2, const int width2)
             
             brickVec.push_back(brick);
             
-            
-            std::swap (brickVec[i], brickVec[i-1]);
         }
     }
 }
@@ -145,9 +143,6 @@ int Board::getWidth() const {
 
 
 
-void Bricks::pleaseWorkISwearIWillMurderSomeoneOtherwise(){
-    
-}
 
 
 /*
